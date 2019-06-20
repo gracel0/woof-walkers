@@ -1,0 +1,87 @@
+body {
+    width:100%;
+    margin:0 auto;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.nav-bar{
+    height:150px;
+    width:100%;
+    background-color: gray;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+.nav-list{
+    float:right;
+    text-align: center;
+}
+.list-item {
+    float:left;
+    /*clear:left;*/
+    list-style-type:none;
+    margin-right: 25px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.list-item a {
+    text-decoration:none;
+    color:#202020;
+    background-color: blue;
+}
+.list-item a:hover{
+    color:red;
+}
+
+/* end of nav bar */
+.contact-header {
+    background-color: blue;
+    height: 100px;
+    color: orange;
+    top: 455px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top:170px;
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+    text-shadow: yellow -3px -2px;
+    box-shadow: gray 4px 2px;
+    border-radius: 8px;    
+}
+
+.container {
+    height: 550px;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 6%;
+}
+.contact-col {
+    float: left;
+    clear:right;
+}
+
+
+
+/* footer section */
+.footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 820px;
+    background-color: rgba(21, 77, 143, 5);
+}
+
+.input, .social, .copy {
+    float: left; 
+    width: 30%;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.input input, .input button, .social a {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.fa-instagram{
+    color:#800080;
+}
