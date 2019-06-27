@@ -4,55 +4,78 @@ body {
     font-family: 'Noto Sans HK', sans-serif;
 }
 .nav-bar{
-    height:150px;
+    height:90px;
     width:100%;
-    background-color: gray;
+    background-color: lightblue;
     margin: 0 auto;
     position: absolute;
     top: 0;
 }
+
+.logo {
+    height:125px;
+    margin-left: 80px;
+    }
+    
 .nav-list{
     float:right;
     text-align: center;
 }
 .list-item {
-    float:left;
+    list-style-type: none;
+    height: 40px;
+    width:60px;
+    background-color: blue;
+    float: left;
+    margin-right: 25px;
+    border-radius: 25%;
+    border: solid 3px gray;
+    border-radius: 8px;
+    /* float:left;
     /*clear:left;*/
     list-style-type:none;
     margin-right: 25px;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 .list-item a {
     text-decoration:none;
-    color:#202020;
-    background-color: blue;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
 }
+
 .list-item a:hover{
-    color:red;
+    color: orange;
+    height: 40px;
+    width: 60px;
+    /*background-color: ;*/
+    float: left;
+    margin-right: 36px;
 }
 
 /* end of nav bar */
 .contact-header {
-    background-color: blue;
-    height: 100px;
-    color: orange;
-    top: 455px;
+    background-color: cornflowerblue;
+    height: 75px;
+    color: black;
+    top: 255px;
     width: 200px;
     margin: 0 auto;
-    margin-top:170px;
+    margin-top: 150px;
     text-align: center;
     font-family:'Roboto Slab', serif;
-    text-shadow: yellow -3px -2px;
+    /* text-shadow:blue -3px -2px; */
     box-shadow: gray 4px 2px;
     border-radius: 8px;    
 }
 
 .container {
-    height: 550px;
+    height: 250px;
     width: 100%;
-    margin-top: 25px;
-    margin-left: 6%;
+    margin-top: 180px;
+    margin-left: 8%;
 }
 .contact-col {
     float: left;
@@ -83,5 +106,5 @@ body {
 }
 
 .fa-instagram{
-    color:#800080;
+    color: magenta;
 }

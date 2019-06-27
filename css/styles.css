@@ -5,7 +5,7 @@ body {
 }
 
 .nav-bar {
-    height: 120px;
+    height: 90px;
     width: 100%;
     background-color: lightblue;
     position: absolute;
@@ -14,8 +14,8 @@ body {
 }
 
 .logo {
-    height:72px;
-    width: 80px;
+    height:125px;
+    margin-left: 80px;
 }
 
 .nav-list {
@@ -30,7 +30,7 @@ body {
     float: left;
     margin-right: 25px;
     border-radius: 25%;
-    border: solid 3px darkred;
+    border: solid 3px gray;
     border-radius: 8px;
 }
 .list-item a {
@@ -42,7 +42,7 @@ body {
 }
 
 .list-item a:hover {
-    color: white;
+    color: orange;
     height: 40px;
     width: 60px;
     /*background-color: ;*/
@@ -53,20 +53,20 @@ body {
  /*End of Nav Section*/
 
 
-.banner {
+.banner-img {
     width: 100%;
-    position: absolute;
-    top: 110px;
+    margin-top: 50px;
+    /* position: absolute;
+    top: 110px; */
 }
 
 .banner-text {
-    background-color: blue;
     height: 150px;
-    width: 170px;
-    color: orange;
+    width: 500px;
+    color: whitesmoke;
     position: absolute;
-    top: 375px;
-    left: 42%;
+    top: 700px;
+    left: 55%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     /* text-shadow: yellow -3px -2px;
@@ -82,7 +82,7 @@ body {
 .main-section {
     height: 500px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     top: 900px;
 }
 
@@ -91,20 +91,27 @@ body {
     width: 48%;
     border: 3px solid black;
     float: left;
-    margin-left: 12px;
+    margin-left: 5px;
     clear: right;
 }
 
-.col main-img {
+.col col-img {
    clear: left;
-   height:300px;
-   width:300px;
+   height: 50px;
+   width: 48%;
+   margin-left: 20px;
+}
+
+.bluegsd {
+    height: 450px;
+    width: 400px;
+    margin-left: 100px;
 }
 
 .footer {
     height: 100px;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     top: 1300px;
     background-color: rgba(21, 77, 143, 5);
 }
@@ -133,7 +140,7 @@ body {
     width: 100%;
     margin-top: 200px;
     margin-bottom: 20px;
-}
+} 
 
 .columns {
     width: 27%;
@@ -144,12 +151,12 @@ body {
     overflow: hidden;
 }
 
-.col-img {
+/* .col-img {
     height: 300px;
     width: 300px;
     display: block;
     margin: auto;
-}
+} */
 
 .audio-col {
     display: block;
@@ -186,4 +193,22 @@ body {
 .contact-col {
     float: left;
     clear:right;
+}
+
+/* footer section */
+
+.input, .social, .copy {
+    float: left; 
+    width: 30%;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.input input, .input button, .social a {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.fa-instagram{
+    color:#800080;
 }
